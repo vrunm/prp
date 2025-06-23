@@ -1,7 +1,7 @@
 import pytest
 import numpy as np
 from unittest.mock import MagicMock, patch
-from pairwise_reranker.pairwise_reranker import PairwiseReranker
+from pairwise_reranker.pairwise_ranker import PairwiseReranker
 
 @pytest.fixture
 def mock_reranker():
